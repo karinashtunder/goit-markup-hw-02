@@ -25,7 +25,7 @@ color: #434455;
 .header-logo {
 
 
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -39,9 +39,10 @@ color: #434455;
     
 
 }
-.header-logo:hover {
-    color: #4D5AE5;
-    color: #2E2F42;
+.header-logo:hover,
+.header-logo:focus
+{
+    color: #404bbf;
 
 }
 .header-link{
@@ -51,6 +52,10 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #2E2F42;
 
+}
+.header-link:hover,
+.header-link:focus{
+    color: #404bbf
 }
 .header-mail {
     font-weight: 400;
@@ -67,7 +72,7 @@ color: #2E2F42;
     
 
 }
-.
+
 .hero {
     width: 1440px;
 height: 600px;
