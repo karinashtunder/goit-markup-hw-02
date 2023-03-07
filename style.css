@@ -25,7 +25,7 @@ color: #434455;
 .header-logo {
 
 
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -39,7 +39,9 @@ color: #434455;
     
 
 }
-.header-logo:hover,
+.header-logo:hover{
+    color: #404bbf;
+}
 .header-logo:focus
 {
     color: #404bbf;
