@@ -22,7 +22,8 @@ color: #434455;
 .web {
     color: #2E2F42;
 }
-.header-logo link {
+.header-logo {
+
 
     font-family: 'Raleway';
     font-style: normal;
@@ -36,6 +37,11 @@ color: #434455;
     text-transform: uppercase;
     color: #4D5AE5;
     
+
+}
+.header-logo:hover {
+    color: #4D5AE5;
+    color: #2E2F42;
 
 }
 .header-link{
@@ -58,8 +64,10 @@ color: #2E2F42;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
+    
 
 }
+.
 .hero {
     width: 1440px;
 height: 600px;
