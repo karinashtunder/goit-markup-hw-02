@@ -216,7 +216,7 @@ body {
 
 
 .btn-text-list {
-  font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -228,6 +228,7 @@ body {
   color: #4d5ae5;
   background: #f4f4fd;
   cursor: pointer;
+border-color: #f4f4fd ;
 }
 .btn-text-list:hover {
   color: #ffffff;
