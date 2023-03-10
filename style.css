@@ -46,7 +46,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-link:hover,
+.header-link:hover{
+    color: #404bbf;
+}
 .header-link:focus {
   color: #404bbf;
 }
@@ -56,6 +58,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.header-contacts:hover{
+    color: #404bbf;
+}
+.header-contacts:focus{
+    color: #404bbf;
 }
 
 .hero {
@@ -94,6 +102,14 @@ body {
 }
 
 /* ----------Directions----------- */
+
+.directions{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
 
 .directions-top-title {
   font-weight: 500;
@@ -145,8 +161,7 @@ body {
 
   background: #ffffff;
 }
-.team-img {
-}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
